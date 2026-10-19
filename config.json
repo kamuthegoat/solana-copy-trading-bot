@@ -1,0 +1,18 @@
+{
+  "network": "mainnet-beta",
+  "rpc_endpoint": "https://api.mainnet-beta.solana.com",
+  "ws_endpoint": "wss://api.mainnet-beta.solana.com",
+  "target_wallets": [
+    "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+    "GThUX1Atko4tqhN2NaiTazWSeFWMuiUvfFnyJyUghFMJ"
+  ],
+  "copy_mode": "fixed",
+  "copy_amount_sol": 0.05,
+  "max_sol_per_trade": 0.25,
+  "slippage_pct": 5.0,
+  "jito_tip_sol": 0.001,
+  "jito_engine_url": "https://mainnet.block-engine.jito.wtf/api/v1/bundles",
+  "auto_sell_with_target": true,
+  "take_profit_pct": 100.0,
+  "stop_loss_pct": 25.0
+}
